@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{D94EC903-CEA1-4876-9411-D452AA39514B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfacesPrimeiroExemplo", "InterfacesPrimeiroExemplo", "{23DEA9B3-8352-40DE-8925-A45CFB5291C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shape como Interface", "Shape como Interface", "{1F3C40FA-68E6-4998-B869-EC17C551E69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape-Como-Interface", "Shape-Como-Interface\Shape-Como-Interface.csproj", "{1DD834C1-3074-47CA-B566-6CACA266C6B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heranca-Multipla", "Heranca-Multipla", "{22DA0C3C-98D6-4850-B10E-63B1CF6CD43C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca-Diamante", "Heranca-Diamante\Heranca-Diamante.csproj", "{0C8929B7-72E1-4995-A5D8-28546E4C26A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comparable-Interface", "Comparable-Interface", "{32072970-6C5B-47D2-B75E-4596680FFEE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface-Comparable", "Interface-Comparable\Interface-Comparable.csproj", "{59C4003D-D985-4D49-9C85-D382DA8C905B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94EC903-CEA1-4876-9411-D452AA39514B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94EC903-CEA1-4876-9411-D452AA39514B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94EC903-CEA1-4876-9411-D452AA39514B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94EC903-CEA1-4876-9411-D452AA39514B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD834C1-3074-47CA-B566-6CACA266C6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD834C1-3074-47CA-B566-6CACA266C6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD834C1-3074-47CA-B566-6CACA266C6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD834C1-3074-47CA-B566-6CACA266C6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8929B7-72E1-4995-A5D8-28546E4C26A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8929B7-72E1-4995-A5D8-28546E4C26A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8929B7-72E1-4995-A5D8-28546E4C26A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8929B7-72E1-4995-A5D8-28546E4C26A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C4003D-D985-4D49-9C85-D382DA8C905B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C4003D-D985-4D49-9C85-D382DA8C905B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C4003D-D985-4D49-9C85-D382DA8C905B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C4003D-D985-4D49-9C85-D382DA8C905B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D94EC903-CEA1-4876-9411-D452AA39514B} = {23DEA9B3-8352-40DE-8925-A45CFB5291C1}
+		{1DD834C1-3074-47CA-B566-6CACA266C6B2} = {1F3C40FA-68E6-4998-B869-EC17C551E69D}
+		{0C8929B7-72E1-4995-A5D8-28546E4C26A9} = {22DA0C3C-98D6-4850-B10E-63B1CF6CD43C}
+		{59C4003D-D985-4D49-9C85-D382DA8C905B} = {32072970-6C5B-47D2-B75E-4596680FFEE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87220394-5117-4564-9A83-DDCC51C3F464}
+	EndGlobalSection
+EndGlobal
